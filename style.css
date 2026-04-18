@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+}
+
+.search{
+    height: 45px;
+    outline: none;
+    border:2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+    box-shadow: none;
+}
+
+.btn1 {
+    height: 45px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border-radius: 0px 20px 0px 20px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-weight: 500;
+}
+/* Hover Effect */
+.btn1:hover {
+    background-color: rgb(10, 150, 10);
+    transform: scale(1.05);
+}
+
+/* Click Effect */
+.btn1:active {
+    transform: scale(0.95);
+}
+.bi-bag-check{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top:5px ;
+    transition: all 0.4s;
+
+}
+.bi-bag-check:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-toggler{
+    font-size: 23px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.main {
+    background: url("https://tse4.mm.bing.net/th/id/OIP.IJBUlx2ZmqFDFyQDHdWV0gHaEK?pid=Api&h=220&P=0");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+main.h1{
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main p:nth-child(1){
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.main p:nth-child(2){
+    font-size: 18px;
+    colour: grey;
+}
+.mbtn1 {
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border: none;
+    height: 45px;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.mbtn1:hover {
+    background-color: rgb(10, 150, 10);
+    transform: scale(1.05);
+}
+
+/* Click effect */
+.mbtn1:active {
+    transform: scale(0.95);
+}  
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: rgb(10, 150, 10);
+    border: 1px solid rgb(20, 219, 20);
+    border-raduius: 50px;
+    transition: all 0.4s;
+}
+.mbtn2:hover{
+    background-color: rgb(20, 219, 20);
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+/*----*/
+.about {
+    background: url("https://tse2.mm.bing.net/th/id/OIP.H3ZTSz_CD96PxY4SofyVpAHaE7?pid=Api&h=220&P=0") no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.welcome{
+    background: rgb(20, 219, 20);
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px;
+}
+<!---------------Product-----------------!>
+.product h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* This will target the price (only <p> inside card) */
+.product .card p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Star styling */
+.star {
+    text-align: right;
+    color: orange;
+    font-size: 14px;
+}
+
+/* Card styling */
+.product .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Card hover effect */
+.product .card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card body border */
+.product .card-body {
+    border: 1px dashed rgb(175, 172, 172);
+    text-align: center;
+}
+
+/* Image spacing */
+.product .card img {
+    margin: 10px 0;
+}
+
+/* Heading */
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Paragraph secondary (if used later) */
+.per1 {
+    color: rgb(168, 162, 162);
+}
+
+/* Button */
+.btnc {
+    height: 50px;
+    width: 50%;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 10px auto;
+    display: block;
+    transition: 0.4s;
+}
+
+.btnc:hover {
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+}
+.mbnt1 {
+    padding: 10px 25px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.mbnt1:hover {
+    background: transparent;
+    color: green;
+    border: 1px solid green;
+}
+/*------------discount--------------*/
+.discount{
+    background: rgb(20, 219, 20);
+    color: white;
+}
+.dbtn {
+    height: 50px;
+    padding: 0 25px; /* width flexible ho jayega */
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.dbtn:hover {
+    background-color: black;
+    color: white;
+}
+/*---------------store------------------*/
+
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.store p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.store p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+/*-----------seller-----------*/
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border-radius: 0;
+    border: none;
+}
+/*-----------------contact------------*/
+/* Contact Section */
+.contact {
+    background-color: #28a745; /* green */
+    padding: 60px 0;
+}
+
+/* Heading */
+.contact h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.contact h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Paragraph */
+.contact p {
+    color: #e6e6e6;
+    font-size: 16px;
+}
+
+/* Contact Info */
+.contact strong {
+    color: #fff;
+}
+
+/* Form Inputs */
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/* Button */
+.btnc {
+    height: 45px;
+    width: 50%;
+    border: none;
+    background: white;
+    color: green;
+    border-radius: 50px;
+    display: block;
+    margin-top: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Hover */
+.btnc:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact h1 {
+        font-size: 2rem;
+    }
+
+    .btnc {
+        width: 100%;
+    }
+}
+/*--------------footer-----------*/
+.footer {
+    background: #222;   /* better dark shade */
+    padding: 20px 0;
+}
+
+/* Text */
+.footer p {
+    color: #ccc;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Icons */
+.s1 {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;        /* 👈 better centering */
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Hover */
+.s1:hover {
+    background-color: rgb(20, 219, 20);
+    border: none;
+    color: white;
+}
